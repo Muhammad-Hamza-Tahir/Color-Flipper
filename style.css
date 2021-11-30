@@ -1,3 +1,4 @@
+
 .list{
     display: flex;
     justify-content: space-around;
@@ -15,4 +16,38 @@
 }
 .list > li:first-child{
     color: blue;
+}
+.main1{
+    width: 1320px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+
+}
+.background{
+        width: 400px;
+        height: 150px;
+        color: white;
+        background-color: black;
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+}
+
+a:hover{
+         color:blue;
+         
+}
+a{
+    text-decoration: none;
+}
+
+button{
+    width: 100px;
+    height: 30px;
 }
